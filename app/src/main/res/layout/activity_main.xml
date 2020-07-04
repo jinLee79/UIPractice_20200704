@@ -80,6 +80,17 @@
         android:visibility="gone"
         android:imeOptions="actionSearch"/>
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용약관에 동의합니다."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -92,12 +103,6 @@
         android:src="@drawable/tje_logo_01"
         android:scaleType="centerCrop"/>
     </LinearLayout>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="이용약관에 동의합니다."/>
 
     <LinearLayout
         android:layout_width="match_parent"
